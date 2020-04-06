@@ -1,8 +1,3 @@
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
-
 RegisterNetEvent('esx:playerJoined')
 AddEventHandler('esx:playerJoined', function()
     local playerid = source
